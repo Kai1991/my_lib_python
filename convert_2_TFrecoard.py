@@ -5,7 +5,8 @@ import tensorflow as tf
 
 from PIL import Image
 from object_detection.utils import dataset_util
-from collections import namedtuple, OrderedDict
+from collections import namedtuple, OrderedDict ，Counter
+import json
 
 flags = tf.app.flags
 flags.DEFINE_string('json_input', '', 'Path to the json input')
